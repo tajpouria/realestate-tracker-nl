@@ -36,7 +36,14 @@ A Python application to track real estate price trends across the Netherlands. T
    pip install -r requirements.txt
    ```
 
-4. Run the application:
+4. Setup environment variables:
+
+   ```bash
+   cp .env.example .env
+   # Update .env file with your actual credentials
+   ```
+
+5. Run the application:
    ```bash
    python app.py
    ```
