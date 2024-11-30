@@ -15,6 +15,8 @@ A Python application to track real estate price trends across the Netherlands. T
 
 - Python 3.8 or higher
 - [pip](https://pip.pypa.io/en/stable/installation/) for managing Python packages
+- [Docker](https://docs.docker.com/get-docker/) for running 3rd-party servers
+- [OpenAI API key](https://platform.openai.com/api-keys) for generating text-based insights
 
 ### Installation
 
@@ -36,14 +38,20 @@ A Python application to track real estate price trends across the Netherlands. T
    pip install -r requirements.txt
    ```
 
-4. Setup environment variables:
+4. Run 3rd-party servers
+
+   ```bash
+   docker-compose up -d
+   ```
+
+5. Setup environment variables:
 
    ```bash
    cp .env.example .env
    # Update .env file with your actual credentials
    ```
 
-5. Run the application:
+6. Run the application:
    ```bash
    python app.py
    ```
