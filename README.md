@@ -1,21 +1,6 @@
-# realestate-tracker-nl
-
----
-
-### Repository Description
-
-A Python application for tracking and visualizing real estate price trends in the Netherlands. Analyze historical data, compare neighborhoods, and make data-driven decisions.
-
----
-
-### README
-
-````markdown
 # Real Estate Tracker NL
 
 A Python application to track real estate price trends across the Netherlands. This tool provides insights through historical data and visualizations, helping users make informed decisions about the housing market.
-
----
 
 ## Features
 
@@ -23,8 +8,6 @@ A Python application to track real estate price trends across the Netherlands. T
 - 🏡 **Neighborhood Comparisons:** Compare average price per square meter across different regions.
 - 🔔 **Custom Alerts:** Notify users of price changes in specific areas.
 - 📊 **Data Visualization:** Generate clear and interactive charts for easy interpretation.
-
----
 
 ## Getting Started
 
@@ -36,11 +19,11 @@ A Python application to track real estate price trends across the Netherlands. T
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/tajpouria/realestate-tracker-nl.git
    cd realestate-tracker-nl
    ```
-````
 
 2. Set up a virtual environment:
    ```bash
@@ -58,15 +41,11 @@ A Python application to track real estate price trends across the Netherlands. T
    python app.py
    ```
 
----
-
 ## Usage
 
 1. **Collect Data:** Scrape data from supported real estate websites (ensure compliance with their terms of use).
 2. **Store Data:** Save data in a database for long-term tracking.
 3. **Analyze Trends:** Use the app’s visualizations to analyze price changes and compare regions.
-
----
 
 ## Contributing
 
@@ -79,8 +58,6 @@ We welcome contributions! Here's how to get started:
    ```
 3. Commit your changes and push to your fork.
 4. Open a pull request.
-
----
 
 ## Contact
 
